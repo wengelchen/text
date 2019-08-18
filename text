@@ -1,3 +1,8 @@
-i can do it 
-you must insist 
-in order to satisfy your monther
+ 新建一个文件夹例如project
+git init #初始化git仓库
+git remove add origin git@github.com:wengelchen/text.git  #进行远程管理
+git status #查看状态
+git add filename #添加文件到暂存区
+git commit -m"注释" #提交文件到本地仓库
+git pull --rebase origin master   @合并文件
+git push -u origin master   #上传到远程仓库
